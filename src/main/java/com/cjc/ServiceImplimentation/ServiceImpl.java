@@ -73,7 +73,7 @@ public class ServiceImpl implements StudentService {
 				dbstudent.setName(stu.getName());
 				
 			}
-			//When we use Wrapper Class For (before:-double=0.0,After:- Double=null )
+			//When we use Wrapper Class For numerical value (before:-double=0.0,After:- Double=null )
 			if(stu.getMarks()!=0.0) {
 				dbstudent.setMarks(stu.getMarks());
 			}
