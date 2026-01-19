@@ -94,7 +94,7 @@ public class StudentController {
 
 	}
 
-//	@ExceptionHandler(value = InvalidCredentialsException.class)
+//	 @ExceptionHandler(value = InvalidCredentialsException.class)
 //	public ResponseEntity<ApiError> handlegetbyid(InvalidCredentialsException e, HttpServletRequest request) {
 //
 //		ApiError apiError = new ApiError();
